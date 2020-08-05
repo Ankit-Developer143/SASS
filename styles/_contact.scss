@@ -1,0 +1,8 @@
+.container{
+    /* @include flexCenter(red);
+    color: $textcolor; */
+
+    @extend header;
+    background-color: red;
+    
+}

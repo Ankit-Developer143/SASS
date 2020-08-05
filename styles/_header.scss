@@ -1,0 +1,17 @@
+/* you can use here background Variable to provide background */
+
+@mixin flexCenter($background) {
+    display: flex;
+    justify-content: center;
+    font-size: $header-fontSize;
+    align-items: center;
+    background: $background;
+}
+
+header {
+    /* which color u want just fill its paranthesis */
+    @include flexCenter();
+    height: 100vh;
+    background-color: $b-color;
+    color: $color;
+}
