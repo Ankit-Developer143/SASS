@@ -1,3 +1,2 @@
-# SASS
-## Crash Course
+# SASS Crash Course
 ## ScreenShot
